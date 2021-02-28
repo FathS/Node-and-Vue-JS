@@ -1,8 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Login from "../components/Accounts/Login"
-
+import Login from "../components/Accounts/Login";
+import Store1 from '../components/StoreLearningComponents/Store1'
+import Store2 from '../components/StoreLearningComponents/Store2'
 Vue.use(VueRouter);
 
 const routes = [
@@ -24,6 +25,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue")
+  },
+  {
+    path: "/store1",
+    name: "Store1",
+    component: Store1
+  },
+  {
+    path: "/store2",
+    name: "Store2",
+    component: Store2
   }
 ];
 

@@ -30,7 +30,7 @@ var personels = [
     { "id": 2, "name": "TestAd", "surname": "TestSoyad", "age": 17, "createdOn": new Date(), "isActive": true },
     { "id": 5, "name": "TestAd2", "surname": "TestSoyad2", "age": 23, "createdOn": new Date(), "isActive": true },
     { "id": 5, "name": "TestAd4", "surname": "TestSoyad4", "age": 16, "createdOn": new Date(), "isActive": true },
-    { "id": 3, "name": "TestAd3", "surname": "TestSoyad3", "age": 33, "createdOn": new Date(), "isActive": false },];
+    { "id": 3, "name": "TestAd3", "surname": "TestSoyad3", "age": 33, "createdOn": new Date(), "isActive": false }];
 
 //Services
 var dovizList = [];

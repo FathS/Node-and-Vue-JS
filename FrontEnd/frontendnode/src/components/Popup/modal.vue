@@ -11,6 +11,7 @@
         <span>Surname :</span> <span>{{ surname }}</span>
         <p>Name: {{ person.name }}</p>
         <p>Surname: {{ person.surname }}</p>
+        
         <ul>
           <li v-for="(item, index) in numberList" :key="index">{{ item }}</li>
         </ul>
